@@ -13,4 +13,10 @@
 
 .RecipeTile{
     cursor: pointer;
+    @media (max-width: 768px) {
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 2px;
+    }
 }
