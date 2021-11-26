@@ -3,6 +3,7 @@ import { YOUR_APP_ID, YOUR_APP_KEY } from "./Key";
 import axios from "axios";
 import { useState } from "react";
 import RecipeTile from "./Components/RecipeTile";
+import Footer from "./Components/Footer";
 
 function App() {
   const [query, setQuery] = useState("");
@@ -57,6 +58,8 @@ function App() {
           return <RecipeTile recipe={recipe} />
         })}
       </div>
+
+      <Footer />
 
     </div>
   );
