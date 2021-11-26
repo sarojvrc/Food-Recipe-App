@@ -26,8 +26,29 @@
   border: 2px solid #09b2f1;
   border-radius: 4px;
   color: white;
+  cursor: pointer;
+}
+
+.app_submit:hover{
+  padding: 6px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color: #ffffff;
+  border: 2px solid #09b2f1;
+  border-radius: 4px;
+  color: #09b2f1;
+  cursor: pointer;
 }
 
 .app_recipes{
-  
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 230px 230px;
+  align-items: baseline;
+}
+
+.app_healthlevel{
+  padding: 7px 8px;
+  margin-left: 6px;
+  border-radius: 4px;
 }
